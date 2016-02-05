@@ -1,15 +1,7 @@
-FROM ubuntu
+FROM alaindomissy/docker-miniconda
 MAINTAINER Alain Domissy alaindomissy@gmail.com
 
-ENV DEBIAN_FRONTEND noninteractive
+RUN conda create -q -n crispr-venv python=2.7 biopython==1.66 cycler==0.9.0 Cython==0.23.4 decorator==4.0.6 numpy==1.10.2 matplotlib
 
-# System packages
-RUN apt-get update && apt-get install -y wget git
-
-RUN wget http://repo.continuum.io/miniconda/Miniconda3-3.7.3-Linux-x86_64.sh  -O miniconda.sh
-RUN bash miniconda.sh -b -p /root/miniconda
-
-ENV PATH="/root/miniconda/bin:$PATH"
-RUN /root/miniconda/bin/conda config --set always_yes yes --set changeps1 no
-RUN /root/miniconda/bin/conda update -q conda
-RUN /root/miniconda/bin/conda info -a
+WORKDIR /root/
+RUN git clone https://github.com/alaindomissy/pycrispr.git
