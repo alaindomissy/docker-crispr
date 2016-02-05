@@ -9,7 +9,7 @@ MAINTAINER Alain Domissy alaindomissy@gmail.com
 #RUN apt-get install libsm6 libxrender1 libfontconfig1
 
 # bio cli tools
-RUN apt-get install ncbi-blast+ bedtools
+RUN apt-get install -y ncbi-blast+ bedtools
 
 # other bio cli tools not needed for now
 # RUN apt-get install tabix
