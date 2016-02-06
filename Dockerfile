@@ -28,7 +28,8 @@ RUN conda install -y cython
 RUN conda install -y biopython
 RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools
 
-RUN pip install primer3-py
+# would need gcc
+#RUN pip install primer3-py
 
 # not needed for now
 # RUN conda install -y pybedtools==0.7.4
