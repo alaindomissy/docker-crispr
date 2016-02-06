@@ -54,4 +54,4 @@ COPY fs_root /
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
 RUN git clone https://github.com/alaindomissy/pycrispr.git
-RUN pip install /root/pycrispr/
+# RUN pip install /root/pycrispr/
