@@ -29,7 +29,7 @@ RUN conda install -y \
   biopython==1.66 \
   cycler==0.9.0 \
   cython==0.23.4 \
-  decorator==4.0.6 \
+  decorator==4.0.6
 
 RUN conda install -y \
   numpy==1.10.4 \
