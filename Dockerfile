@@ -52,9 +52,10 @@ RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
 WORKDIR /root/
 
-COPY fs_root /
-#RUN mkdir /RESTORE &&
+COPY filesystem_root /
+
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
 RUN git clone https://github.com/alaindomissy/pycrispr.git
+
 # RUN pip install /root/pycrispr/
