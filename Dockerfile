@@ -21,7 +21,7 @@ RUN apt-get install -y ncbi-blast+ bedtools
 # how to source activate in a Dockerfile? dot know, for now no venv
 
 RUN conda install -y python=2.7 biopython==1.66 cycler==0.9.0 Cython==0.23.4 decorator==4.0.6
-RUN conda install -y numpy==1.10.2 matplotlib
+RUN conda install -y numpy==1.10.4 matplotlib
 RUN conda install -y pyqt
 RUN conda install -y py==1.4.31 pyparsing==2.0.3 python-dateutil==2.4.2 pytz==2015.7
 RUN conda install -y cython
