@@ -1,0 +1,3 @@
+GPG_KEY='disabled'
+TARGET='rsync://basespace@162.243.73.32/backups/ce10'
+SOURCE='/RESTORE/ce10'

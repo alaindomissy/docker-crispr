@@ -1,0 +1,4 @@
+GPG_KEY='disabled'
+TARGET='rsync://basespace@162.243.73.32/backups/mm8'
+SOURCE='/RESTORE/mm8'
+

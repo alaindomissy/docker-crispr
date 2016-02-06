@@ -1,0 +1,1 @@
+/genomes/PhiX/Illumina/RTA/Sequence/WholeGenomeFasta/genome.fa.pac
