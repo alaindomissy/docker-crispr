@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export APPSESS=/root/pycrispr/tests/data/AppSession.json
+#rm -rf /data/scratch

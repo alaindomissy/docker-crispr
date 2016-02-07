@@ -52,10 +52,17 @@ RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
 WORKDIR /root/
 
-COPY filesystem_root /
+COPY filesystemroot /
 
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
 RUN git clone https://github.com/alaindomissy/pycrispr.git
 
 # RUN pip install /root/pycrispr/
+
+
+# do we need this?
+#export PATH="/root/miniconda/bin:$PATH"
+
+# for ncbi-blast+   # for the app executables   # for developement utility executables
+ENV PATH /opt/blast/bin:/APP:/root/pycripr/bin:$PATH

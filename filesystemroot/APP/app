@@ -1,6 +1,6 @@
 #!/bin/bash
 
-/root/anaconda3/envs/pycrispr/bin/python -m pybasespace.app
+/root/miniconda/bin/python -m pybasespace.app
 
 
 
