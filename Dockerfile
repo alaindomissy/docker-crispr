@@ -48,9 +48,9 @@ RUN conda install -y \
 RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 RUN conda install -y -c https://conda.anaconda.org/bioconda blast
 
-COPY filestocopy /
+COPY files1 /
 RUN chmod 600 /root/.ssh/id_rsa
-RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
+RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP && ln -s /data/dev /root/pycrispr
 
 # /root/.cache/duplicity was already COPYed , but this makes an update
 #RUN duply ecoli status && duply mm8 status && duply hg38 status
@@ -67,3 +67,8 @@ WORKDIR /root/
 # RUN pip install /root/pycrispr/
 
 # git config --global push.default simple
+#  apt-get install nano
+# source activate root
+# duply mm8 status && duply hg18 status && duply ecoli status && duply phix status
+
+
