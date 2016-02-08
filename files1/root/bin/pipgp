@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pip uninstall -y pycrispr
+pip install git+git://github.com/alaindomissy/pycrispr.git
+

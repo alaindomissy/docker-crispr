@@ -7,13 +7,13 @@ export GENOMES=/GENOMES/
 export PROTOSP=/RESTORE/
 export SCRATCH=/data/scratch/
 
-#export APPSESS=/root/AppSession.json
-export APPSESS=/root/pycrispr/tests/data/AppSession.json
+
+export APPSESS=/data/tests/data/AppSession.json
 
 echo
 echo BLASTDB is now $BLASTDB
 echo GENOMES is now $GENOMES
-echo PROROSP is now $PROTOSP
+echo PROTOSP is now $PROTOSP
 
 echo SCRATCH is now $SCRATCH
 echo APPSESS is now $APPSESS
@@ -23,10 +23,14 @@ cat /APP/hello.txt
 
 echo pip uninstall -y pycrispr
 pip uninstall -y pycrispr
+
 echo pip install -e /root/pycrispr/
 pip install -e /root/pycrispr/
+
+#pip install git+https://github.com/alaindomissy/pycrispr.git
+#pip install git+https://github.com/alaindomissy/pycrispr.git
 # pip install  git+https://github.com/alaindomissy/buffet.git#egg=pycrispr
+
 # pip install primer3-py
 
 /BACKEND/app
-
