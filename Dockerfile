@@ -45,11 +45,9 @@ RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
 COPY filesystemroot /
 RUN chmod 600 /root/.ssh/id_rsa \
-  && ln -s /RESTORE /BLASTDB \
-  && ln -s /RESTORE /PROTOSP
-  && duply ecoli status \           # /root/.cache/duplicity was already COPYed , but this makes an update
-  && duply mm8 status \
-  && duply hg38 status
+RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
+ # /root/.cache/duplicity was already COPYed , but this makes an update
+RUN duply ecoli status && duply mm8 status && duply hg38 status
 
 # anaconda
 # ncbi-blast+
