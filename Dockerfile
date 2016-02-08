@@ -8,9 +8,10 @@ MAINTAINER Alain Domissy alaindomissy@gmail.com
 # RUN apt-get install libsm6 libxrender1 libfontconfig1
 
 # ubunutu distro baclup and bio cli tools
+
 RUN apt-get install -y \
   duply \
-  libgomp1 \       # needed librery for blast
+  libgomp1 \
   ncbi-blast+ \
   bedtools
 
@@ -36,7 +37,7 @@ RUN conda install -y \
   cycler==0.9.0 \
   cython==0.23.4 \
   decorator==4.0.6 \
-    py==1.4.31 \
+  py==1.4.31 \
   pyparsing==2.0.3 \
   python-dateutil==2.4.2 \
   pytz==2015.7
@@ -51,7 +52,7 @@ COPY files1 /
 RUN chmod 600 /root/.ssh/id_rsa
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
- # /root/.cache/duplicity was already COPYed , but this makes an update
+# /root/.cache/duplicity was already COPYed , but this makes an update
 #RUN duply ecoli status && duply mm8 status && duply hg38 status
 # ABOVE DOES NOT WORK DUE TO ssh key not protected with 600 permissions somehow
 
@@ -65,5 +66,4 @@ WORKDIR /root/
 # RUN git clone https://github.com/alaindomissy/pycrispr.git
 # RUN pip install /root/pycrispr/
 
-# need this ?
-#git config --global push.default simple
+# git config --global push.default simple
