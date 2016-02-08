@@ -10,6 +10,7 @@ MAINTAINER Alain Domissy alaindomissy@gmail.com
 # ubunutu distro baclup and bio cli tools
 RUN apt-get install -y \
   duply \
+  libgomp1 \       # needed librery for blast
   ncbi-blast+ \
   bedtools
 
@@ -44,8 +45,9 @@ RUN conda install -y \
   matplotlib==1.5.1 \
   pyqt==4.11.4
 RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
+RUN conda install -y -c https://conda.anaconda.org/bioconda blast
 
-COPY files /
+COPY files1 /
 RUN chmod 600 /root/.ssh/id_rsa
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
@@ -62,3 +64,6 @@ WORKDIR /root/
 
 # RUN git clone https://github.com/alaindomissy/pycrispr.git
 # RUN pip install /root/pycrispr/
+
+# need this ?
+#git config --global push.default simple
