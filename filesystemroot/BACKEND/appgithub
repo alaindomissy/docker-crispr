@@ -25,4 +25,4 @@ cat /APP/hello.txt
 # pip install  git+https://github.com/alaindomissy/buffet.git#egg=pycrispr
 # pip install primer3-py
 
-/APP/app
+/BACKEND/app
