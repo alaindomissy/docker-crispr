@@ -30,20 +30,22 @@ RUN apt-get install -y \
 # RUN conda install -y pysam==0.8.4
 
 RUN conda install -y \
-  biopython==1.66 \
+  biopython==1.66
+RUN conda install -y \
   cycler==0.9.0 \
   cython==0.23.4 \
   decorator==4.0.6 \
-  numpy==1.10.4 \
-  matplotlib==1.5.1 \
-  pyqt==4.11.4 \
-  py==1.4.31 \
+    py==1.4.31 \
   pyparsing==2.0.3 \
   python-dateutil==2.4.2 \
   pytz==2015.7
+RUN conda install -y \
+  numpy==1.10.4 \
+  matplotlib==1.5.1 \
+  pyqt==4.11.4
 RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
-COPY filesystemroot /
+COPY files /
 RUN chmod 600 /root/.ssh/id_rsa
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
 
