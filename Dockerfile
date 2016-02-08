@@ -67,7 +67,7 @@ WORKDIR /root/
 # RUN pip install /root/pycrispr/
 
 # git config --global push.default simple
-#  apt-get install nano
+# apt-get install nano
 # source activate root
 # duply mm8 status && duply hg18 status && duply ecoli status && duply phix status
 
