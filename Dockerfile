@@ -34,7 +34,6 @@ RUN conda install -y \
   cycler==0.9.0 \
   cython==0.23.4 \
   decorator==4.0.6 \
-  conda install \
   numpy==1.10.4 \
   matplotlib==1.5.1 \
   pyqt==4.11.4 \
