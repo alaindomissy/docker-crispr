@@ -37,4 +37,5 @@ pip install -e /root/pycrispr/
 
 # pip install primer3-py
 
-/BACKEND/app
+
+/root/miniconda/bin/python -m pybasespace.app
