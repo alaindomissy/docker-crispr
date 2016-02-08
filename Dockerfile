@@ -46,8 +46,10 @@ RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 COPY filesystemroot /
 RUN chmod 600 /root/.ssh/id_rsa
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP
+
  # /root/.cache/duplicity was already COPYed , but this makes an update
-RUN duply ecoli status && duply mm8 status && duply hg38 status
+#RUN duply ecoli status && duply mm8 status && duply hg38 status
+# ABOVE DOES NOT WORK DUE TO ssh key not protected with 600 permissions somehow
 
 # anaconda
 # ncbi-blast+
