@@ -49,7 +49,7 @@ RUN conda install -y \
 RUN conda install -y -c https://conda.anaconda.org/bioconda blast
 RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
-COPY files1 /
+COPY files /
 RUN chmod 600 /root/.ssh/id_rsa
 RUN ln -s /RESTORE /BLASTDB && ln -s /RESTORE /PROTOSP && ln -s /data/dev /root/pycrispr
 
