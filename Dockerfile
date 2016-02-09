@@ -45,8 +45,9 @@ RUN conda install -y \
   numpy==1.10.4 \
   matplotlib==1.5.1 \
   pyqt==4.11.4
-RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
+
 RUN conda install -y -c https://conda.anaconda.org/bioconda blast
+RUN conda install -y -c https://conda.anaconda.org/bioconda pybedtools==0.7.4
 
 COPY files1 /
 RUN chmod 600 /root/.ssh/id_rsa
