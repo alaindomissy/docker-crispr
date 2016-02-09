@@ -72,3 +72,5 @@ WORKDIR /root/
 # duply mm8 status && duply hg18 status && duply ecoli status && duply phix status
 
 RUN pip install git+https://github.com/alaindomissy/pycrispr.git
+
+CMD /BACKEND/app
