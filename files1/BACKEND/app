@@ -6,7 +6,7 @@ export BLASTDB=/RESTORE/
 export GENOMES=/GENOMES/
 export PROTOSP=/RESTORE/
 export SCRATCH=/data/scratch/
-export APPSESS=/data/input/AppSession.json
+#export APPSESS=/data/input/AppSession.json
 echo
 echo BLASTDB is now $BLASTDB
 echo GENOMES is now $GENOMES
