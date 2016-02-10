@@ -1,4 +1,6 @@
 #!/bin/bash
 
+conda install pytest
+
 cd /data/dev
 python -m pytest .
