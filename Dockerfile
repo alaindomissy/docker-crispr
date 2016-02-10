@@ -9,6 +9,7 @@ RUN conda install -y \
   pyparsing==2.0.3 \
   python-dateutil==2.4.2 \
   pytz==2015.7
+
 RUN conda install -y \
   numpy==1.10.4 \
   matplotlib==1.5.1 \
@@ -20,8 +21,10 @@ RUN apt-get install -y duply
 COPY files /
 RUN chmod 600 /root/.ssh/id_rsa && \
     ln -s /RESTORE /BLASTDB && \
-    ln -s /RESTORE /PROTOSP && \
-    ln -s /data/dev /root/pycrispr
+    ln -s /RESTORE /PROTOSP
+
+#    && \
+#    ln -s /data/dev /root/pycrispr
 
 
 
