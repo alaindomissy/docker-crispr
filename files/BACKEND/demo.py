@@ -71,10 +71,10 @@ for index in range(numberOfPropertyItems):
                 print "number of R1 and R2 files do not match"
                 sys.exit()
         sampleOutDir = '/data/output/appresults/%s/%s' % (projectID, sampleName[sample])
-        os.system('mkdir -p "%s"' % (sampleOutDir))
+        os.system('mkdir -p "%s"' % sampleOutDir)
         # create output file and print parameters to output file (this is where you would run the command)
-        file = '%s/parameters.csv' % (sampleOutDir)
-        outFile = open(file, 'w')
+        handle = '%s/parameters.csv' % sampleOutDir
+        outFile = open(handle, 'w')
         count = 0
         for parameter in parameter_list:
             count += 1
@@ -90,6 +90,6 @@ for index in range(numberOfPropertyItems):
         for href in sampleHref:
             metaJsonObject['Properties'][0]['Items'].append(href)
 
-        metadataFile = '%s/_metadata.json' % (sampleOutDir)
+        metadataFile = '%s/_metadata.json' % sampleOutDir
         outMetadataFile = open(metadataFile, 'w')
         json.dump(metaJsonObject, outMetadataFile)
