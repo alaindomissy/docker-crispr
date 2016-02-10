@@ -1,3 +1,6 @@
+from __future__ import absolute_import, division, print_function
+# from __future__ import unicode_literals
+
 import os
 import fnmatch
 import sys
@@ -68,7 +71,7 @@ for index in range(numberOfPropertyItems):
                 R1files = fnmatch.filter(files, '*_R1_*')
                 R2files = fnmatch.filter(files, '*_R2_*')
             if len(R1files) != len(R2files):
-                print "number of R1 and R2 files do not match"
+                print("number of R1 and R2 files do not match")
                 sys.exit()
         sampleOutDir = '/data/output/appresults/%s/%s' % (projectID, sampleName[sample])
         os.system('mkdir -p "%s"' % sampleOutDir)
