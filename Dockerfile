@@ -52,4 +52,6 @@ ENV PATH /opt/blast/bin:/root/bin:/BACKEND:$PATH
 
 WORKDIR /root/
 
+RUN apt-get install nano tree
+
 CMD /BACKEND/app
