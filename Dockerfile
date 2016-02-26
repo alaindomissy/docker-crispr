@@ -44,7 +44,8 @@ RUN chmod 600 /root/.ssh/id_rsa && \
 
 # RUN git clone https://github.com/alaindomissy/pycrispr.git
 # RUN pip install /root/pycrispr/
-RUN pip install git+https://github.com/alaindomissy/pycrispr.git
+
+# RUN pip install git+https://github.com/alaindomissy/pycrispr.git
 
 # root development executables
 # app executables
@@ -54,4 +55,4 @@ WORKDIR /root/
 
 RUN apt-get install nano tree
 
-CMD /BACKEND/app
+CMD /BACKEND/appgithub.sh
