@@ -1,4 +1,5 @@
 #!/bin/bash
 
 pip uninstall -y basespaceapp
-pip install basespaceapp
+#pip install basespaceapp
+pip install git+git://github.com/alaindomissy/basespaceapp.git
