@@ -16,4 +16,5 @@ echo APPSESS is now $APPSESS
 echo
 cat /BACKEND/hello.txt
 
-/root/miniconda/bin/python -m pybasespace.app
+#/root/miniconda/bin/python -m pybasespace.app
+/root/miniconda/bin/python -m crispr.payload

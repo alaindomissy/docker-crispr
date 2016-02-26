@@ -1,0 +1,266 @@
+Hostname d35d67fd8c9b
+Localdir /RESTORE/mm8
+Volume 1:
+    StartingPath   .  
+    EndingPath     mm8.fasta 1278
+    Hash SHA1 91616cc47996b9c0d1a47b2407f584528478759f
+Volume 2:
+    StartingPath   mm8.fasta 1279
+    EndingPath     mm8.fasta 2543
+    Hash SHA1 70e2065a9689cd4c9aa269f07b91d1a6064054ad
+Volume 3:
+    StartingPath   mm8.fasta 2544
+    EndingPath     mm8.fasta 3826
+    Hash SHA1 cbe95d2f783ea531683d9536c4685e9aba4bac69
+Volume 4:
+    StartingPath   mm8.fasta 3827
+    EndingPath     mm8.fasta 5059
+    Hash SHA1 fca5737b1988b3f10210059d5030146847fa1875
+Volume 5:
+    StartingPath   mm8.fasta 5060
+    EndingPath     mm8.fasta 6337
+    Hash SHA1 43ea43c62a27dcdc3ee4327f1fe1c2f86d1aec2a
+Volume 6:
+    StartingPath   mm8.fasta 6338
+    EndingPath     mm8.fasta 7620
+    Hash SHA1 70a0fb67ce7733129380a3395bac41823bca4825
+Volume 7:
+    StartingPath   mm8.fasta 7621
+    EndingPath     mm8.fasta 8859
+    Hash SHA1 c02d3514f30e635ee28c41dea790ac878dd0f093
+Volume 8:
+    StartingPath   mm8.fasta 8860
+    EndingPath     mm8.fasta 10144
+    Hash SHA1 450b1c6ebbe757774cfdaac486707406740c103b
+Volume 9:
+    StartingPath   mm8.fasta 10145
+    EndingPath     mm8.fasta 11442
+    Hash SHA1 bc51d91f2b61f21cad2a47639abdd3b0047da4c4
+Volume 10:
+    StartingPath   mm8.fasta 11443
+    EndingPath     mm8.fasta 12722
+    Hash SHA1 bf492390dbcc45a956460abe49664d6b3ea893c6
+Volume 11:
+    StartingPath   mm8.fasta 12723
+    EndingPath     mm8.fasta 13954
+    Hash SHA1 fc250fb1b870c71a88264d9771d84c698de4bc36
+Volume 12:
+    StartingPath   mm8.fasta 13955
+    EndingPath     mm8.fasta 15232
+    Hash SHA1 feab58789b8b9ea37e916c85d07afb757dfe07c5
+Volume 13:
+    StartingPath   mm8.fasta 15233
+    EndingPath     mm8.fasta 16525
+    Hash SHA1 ac75cf196ad03234387ad35d06e2b297f15bd094
+Volume 14:
+    StartingPath   mm8.fasta 16526
+    EndingPath     mm8.fasta 17809
+    Hash SHA1 c2934fab08e7a8499ee5026d55a0df1aeacb1cc4
+Volume 15:
+    StartingPath   mm8.fasta 17810
+    EndingPath     mm8.fasta 19091
+    Hash SHA1 b093e7d0ca028a2c536cc5c506c67b02b9e07259
+Volume 16:
+    StartingPath   mm8.fasta 19092
+    EndingPath     mm8.fasta 20370
+    Hash SHA1 8a65dc7ec979e401c50f52925182fb886ce63d92
+Volume 17:
+    StartingPath   mm8.fasta 20371
+    EndingPath     mm8.fasta 21603
+    Hash SHA1 ea8c77f15aa6a562dfd8959748ff45674c4ab209
+Volume 18:
+    StartingPath   mm8.fasta 21604
+    EndingPath     mm8.fasta 22895
+    Hash SHA1 5c8bf9f1d7ee8213610afb139d48af035ec29092
+Volume 19:
+    StartingPath   mm8.fasta 22896
+    EndingPath     mm8.fasta 24127
+    Hash SHA1 2bb08edbd6beeabf905b921b1e0aa03fe825d40f
+Volume 20:
+    StartingPath   mm8.fasta 24128
+    EndingPath     mm8.fasta 25405
+    Hash SHA1 4628fb65c71e612b0575839ac7d6c5541644e2e8
+Volume 21:
+    StartingPath   mm8.fasta 25406
+    EndingPath     mm8.fasta 26643
+    Hash SHA1 9d6b56ee80b8a57e0fc01c7246734d70a225bf02
+Volume 22:
+    StartingPath   mm8.fasta 26644
+    EndingPath     mm8.fasta 27943
+    Hash SHA1 6470076fa3e80d564753ce8752c309585b8eec9d
+Volume 23:
+    StartingPath   mm8.fasta 27944
+    EndingPath     mm8.fasta 29178
+    Hash SHA1 b0336cb4b7b665268bb25b4175217d949149a847
+Volume 24:
+    StartingPath   mm8.fasta 29179
+    EndingPath     mm8.fasta 30468
+    Hash SHA1 b81d2a7e09c619f227cbcebceb0a19ecf976e05d
+Volume 25:
+    StartingPath   mm8.fasta 30469
+    EndingPath     mm8.fasta 31702
+    Hash SHA1 b03a74267a7fe7c1fab88992f993a43b00c17243
+Volume 26:
+    StartingPath   mm8.fasta 31703
+    EndingPath     mm8.fasta 33006
+    Hash SHA1 33301144bbd1d1809a155b772f4eff4a7999d713
+Volume 27:
+    StartingPath   mm8.fasta 33007
+    EndingPath     mm8.fasta 34240
+    Hash SHA1 179e087781dcf0ebed0d7604af11e8fc0316b2ea
+Volume 28:
+    StartingPath   mm8.fasta 34241
+    EndingPath     mm8.fasta 35583
+    Hash SHA1 053e79f27a791c8dae644d4534968bba9038aa70
+Volume 29:
+    StartingPath   mm8.fasta 35584
+    EndingPath     mm8.fasta 36863
+    Hash SHA1 c7b47f9980a3e5879eb2b806f1709877dad084a2
+Volume 30:
+    StartingPath   mm8.fasta 36864
+    EndingPath     mm8.fasta 38095
+    Hash SHA1 67d3f49b0c095e900ee03f6e60258776f8d2f4ea
+Volume 31:
+    StartingPath   mm8.fasta 38096
+    EndingPath     mm8.fasta 39423
+    Hash SHA1 171e2aad7dee5b678555870fffc3cc4377b2bce1
+Volume 32:
+    StartingPath   mm8.fasta 39424
+    EndingPath     mm8.fasta 40670
+    Hash SHA1 8365257d1a4762a2eda26f40e419f453736a4206
+Volume 33:
+    StartingPath   mm8.fasta 40671
+    EndingPath     mm8.nsq 227
+    Hash SHA1 66b764042e1b33d7098d46950388900e35855d9e
+Volume 34:
+    StartingPath   mm8.nsq 228
+    EndingPath     mm8.nsq 645
+    Hash SHA1 fe6cbd45831e81a9d7a97cd210a2994d119daa61
+Volume 35:
+    StartingPath   mm8.nsq 646
+    EndingPath     mm8.nsq 1061
+    Hash SHA1 c75952747b982e1d1b20261b448d8faa5c778658
+Volume 36:
+    StartingPath   mm8.nsq 1062
+    EndingPath     mm8.nsq 1478
+    Hash SHA1 bcbb8d714669b830e80506716a6421beadf60414
+Volume 37:
+    StartingPath   mm8.nsq 1479
+    EndingPath     mm8.nsq 1894
+    Hash SHA1 3eecfea7f0c747ab4c3792615459931194b5d3c0
+Volume 38:
+    StartingPath   mm8.nsq 1895
+    EndingPath     mm8.nsq 2312
+    Hash SHA1 049b5f8e8f5031df73170ea9db79180e100ebd17
+Volume 39:
+    StartingPath   mm8.nsq 2313
+    EndingPath     mm8.nsq 2730
+    Hash SHA1 9d29541eb81740edd486fe2b50395ff12370314e
+Volume 40:
+    StartingPath   mm8.nsq 2731
+    EndingPath     mm8.nsq 3149
+    Hash SHA1 24c6930ac6009094ddf29d1ed408a5b92326a1d7
+Volume 41:
+    StartingPath   mm8.nsq 3150
+    EndingPath     mm8.nsq 3566
+    Hash SHA1 2ff4d2faf01d548cb4f1bdf3f4810e05ad263754
+Volume 42:
+    StartingPath   mm8.nsq 3567
+    EndingPath     mm8.nsq 3984
+    Hash SHA1 21f70ffd2a987cf9492d10cc80f74e8c113ec22c
+Volume 43:
+    StartingPath   mm8.nsq 3985
+    EndingPath     mm8.nsq 4402
+    Hash SHA1 579bf8275812def4eff4822fc496f8e22de5f7a6
+Volume 44:
+    StartingPath   mm8.nsq 4403
+    EndingPath     mm8.nsq 4818
+    Hash SHA1 301d92ada78d4898d420dfc6e548897c0213b685
+Volume 45:
+    StartingPath   mm8.nsq 4819
+    EndingPath     mm8.nsq 5236
+    Hash SHA1 c88c513a1575f6aa1fb9b85ca226098504749530
+Volume 46:
+    StartingPath   mm8.nsq 5237
+    EndingPath     mm8.nsq 5653
+    Hash SHA1 0a6ba20014c7232a5c8d9af0d0cdaf12a5e69102
+Volume 47:
+    StartingPath   mm8.nsq 5654
+    EndingPath     mm8.nsq 6072
+    Hash SHA1 f3f100e001fc76ee770e10a0425cae282b321ef5
+Volume 48:
+    StartingPath   mm8.nsq 6073
+    EndingPath     mm8.nsq 6491
+    Hash SHA1 de0cee4d0648fcb1bdc72c3e7e087a345117daaf
+Volume 49:
+    StartingPath   mm8.nsq 6492
+    EndingPath     mm8.nsq 6909
+    Hash SHA1 374f877dbbc151f70df4958cf88dc3368e691743
+Volume 50:
+    StartingPath   mm8.nsq 6910
+    EndingPath     mm8.nsq 7326
+    Hash SHA1 19c0d561bc91f8bf42000eaf6f823997f7934331
+Volume 51:
+    StartingPath   mm8.nsq 7327
+    EndingPath     mm8.nsq 7745
+    Hash SHA1 7ad96a2be4ab0a5f3abc9e40aaf523a37723c4f3
+Volume 52:
+    StartingPath   mm8.nsq 7746
+    EndingPath     mm8.nsq 8168
+    Hash SHA1 924ed9dbbf813a6bb5ec2426ee9173d52ba6cbe4
+Volume 53:
+    StartingPath   mm8.nsq 8169
+    EndingPath     mm8.nsq 8584
+    Hash SHA1 8ca93c6985a9d61a2c971eba15cbc206c6afca54
+Volume 54:
+    StartingPath   mm8.nsq 8585
+    EndingPath     mm8.nsq 9002
+    Hash SHA1 4aef85cf9ab60fbd2cbc1cc6c49d40a6f3e8f1a6
+Volume 55:
+    StartingPath   mm8.nsq 9003
+    EndingPath     mm8.nsq 9418
+    Hash SHA1 024eae5abb237b57c92308fd60f2b6fb098baf73
+Volume 56:
+    StartingPath   mm8.nsq 9419
+    EndingPath     mm8.nsq 9843
+    Hash SHA1 d44f871117b79e43ee0672e3f28772e8632c9646
+Volume 57:
+    StartingPath   mm8.nsq 9844
+    EndingPath     mm8.prsp.bed 491
+    Hash SHA1 007aebac012ee8373c1273c9fb58d3eddc0934cd
+Volume 58:
+    StartingPath   mm8.prsp.bed 492
+    EndingPath     mm8.prsp.bed 2703
+    Hash SHA1 240bede7ba501e8c6a56779ecdb3f2bafbddd122
+Volume 59:
+    StartingPath   mm8.prsp.bed 2704
+    EndingPath     mm8.prsp.bed 4920
+    Hash SHA1 0e55e9d6ba13fd0f0b72469a450b4ec1ea1e50f2
+Volume 60:
+    StartingPath   mm8.prsp.bed 4921
+    EndingPath     mm8.prsp.bed 7130
+    Hash SHA1 a559fe1cc25a07218bbfd6ae7629260e5c7b0c62
+Volume 61:
+    StartingPath   mm8.prsp.bed 7131
+    EndingPath     mm8.prsp.bed 9319
+    Hash SHA1 33d6c7eab64bff63266eb644e3cee2297eaf6241
+Volume 62:
+    StartingPath   mm8.prsp.bed 9320
+    EndingPath     mm8.prsp.bed 11487
+    Hash SHA1 b1d2b0cde8df1ab803596fd5a419a292c28b08d1
+Volume 63:
+    StartingPath   mm8.prsp.bed 11488
+    EndingPath     mm8.prsp.bed 13666
+    Hash SHA1 a12b58e5ff2cb57caf0de9f478feef1226860529
+Volume 64:
+    StartingPath   mm8.prsp.bed 13667
+    EndingPath     mm8.prsp.bed 15844
+    Hash SHA1 bea6f85a7873948496f93345f8d218c4a76f0113
+Volume 65:
+    StartingPath   mm8.prsp.bed 15845
+    EndingPath     mm8.prsp.bed 17979
+    Hash SHA1 ebb6c31324c05151ac8f94057f50af29af4787e9
+Volume 66:
+    StartingPath   mm8.prsp.bed 17980
+    EndingPath     mm8.prsp.bed  
+    Hash SHA1 7608cc34624a2f8801c55d61be7c192e4f1c7614

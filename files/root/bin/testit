@@ -2,5 +2,5 @@
 
 conda install pytest
 
-cd /data/dev
+cd /data/dev/pycrispr/
 python -m pytest .

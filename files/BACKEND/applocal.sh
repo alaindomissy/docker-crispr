@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export APPSESS=/data/dev/tests/data/AppSession.json
+export APPSESS=/data/dev/pycrispr/tests/data/AppSession.json
 
 app

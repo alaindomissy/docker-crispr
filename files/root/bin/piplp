@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip uninstall -y pycrispr
-pip install /data/dev/
+pip install /data/dev/pycrispr/

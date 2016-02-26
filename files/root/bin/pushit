@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /data/dev/
+cd /data/dev/pycrispr/
 git push
 cd -
 

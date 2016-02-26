@@ -1,0 +1,162 @@
+Hostname 9a6d32a11eb4
+Localdir /RESTORE
+Volume 1:
+    StartingPath   .  
+    EndingPath     hg18.nsq 420
+    Hash SHA1 e38f77bef1a92997fff3fb54ad66e25cf8d4f596
+Volume 2:
+    StartingPath   hg18.nsq 421
+    EndingPath     hg18.nsq 835
+    Hash SHA1 ea5720455211e07903e02d7ee62c4bd8aaf01fde
+Volume 3:
+    StartingPath   hg18.nsq 836
+    EndingPath     hg18.nsq 1253
+    Hash SHA1 79efea792c4e2b92b65a429effa0f0f0caaeb2cf
+Volume 4:
+    StartingPath   hg18.nsq 1254
+    EndingPath     hg18.nsq 1671
+    Hash SHA1 037e9e97b0db210dd1c86fd54915492b98235d75
+Volume 5:
+    StartingPath   hg18.nsq 1672
+    EndingPath     hg18.nsq 2089
+    Hash SHA1 144f500abb909f55eb90337ad1fa31bef2117eca
+Volume 6:
+    StartingPath   hg18.nsq 2090
+    EndingPath     hg18.nsq 2507
+    Hash SHA1 f87580cfbf32d0c8a2c4bcc955154295104aa620
+Volume 7:
+    StartingPath   hg18.nsq 2508
+    EndingPath     hg18.nsq 2922
+    Hash SHA1 73ec62bd2b64f0343c8eeaec3938084138103b63
+Volume 8:
+    StartingPath   hg18.nsq 2923
+    EndingPath     hg18.nsq 3337
+    Hash SHA1 a4ea0a9255dd9adef7197f598ade08e077898fc5
+Volume 9:
+    StartingPath   hg18.nsq 3338
+    EndingPath     hg18.nsq 3753
+    Hash SHA1 ce8eb4852bd7fda91e053eeb19b2bece424f4d82
+Volume 10:
+    StartingPath   hg18.nsq 3754
+    EndingPath     hg18.nsq 4173
+    Hash SHA1 5784e2a6e82bd5b1725cdf84a4d5050ab4cf6f67
+Volume 11:
+    StartingPath   hg18.nsq 4174
+    EndingPath     hg18.nsq 4593
+    Hash SHA1 d56cc479834925bd7b4e2ed6e8ea2b92cf7f8058
+Volume 12:
+    StartingPath   hg18.nsq 4594
+    EndingPath     hg18.nsq 5017
+    Hash SHA1 8016cc441579f39c750e0e232a38b094dbd41a43
+Volume 13:
+    StartingPath   hg18.nsq 5018
+    EndingPath     hg18.nsq 5433
+    Hash SHA1 c91e6aa5ed37e030323e9f00ceaa94cf07c31c10
+Volume 14:
+    StartingPath   hg18.nsq 5434
+    EndingPath     hg18.nsq 5851
+    Hash SHA1 78185f225d4b0826583016e7dcd689459dc2ba11
+Volume 15:
+    StartingPath   hg18.nsq 5852
+    EndingPath     hg18.nsq 6265
+    Hash SHA1 e3d6dcb10a64d3840fe55f51354ad7bee43fab34
+Volume 16:
+    StartingPath   hg18.nsq 6266
+    EndingPath     hg18.nsq 6682
+    Hash SHA1 c2481a01df799f391beda7858bac7b05a2037aa4
+Volume 17:
+    StartingPath   hg18.nsq 6683
+    EndingPath     hg18.nsq 7098
+    Hash SHA1 5ecd6bbce393e7ff3523eb5520a98a9cacd61f4a
+Volume 18:
+    StartingPath   hg18.nsq 7099
+    EndingPath     hg18.nsq 7516
+    Hash SHA1 e11a61d3165d0ecc9b7b520def618e5261b76d41
+Volume 19:
+    StartingPath   hg18.nsq 7517
+    EndingPath     hg18.nsq 7934
+    Hash SHA1 b32000a4d5005a41be9d5a2648198bd5b162cb5b
+Volume 20:
+    StartingPath   hg18.nsq 7935
+    EndingPath     hg18.nsq 8352
+    Hash SHA1 d25d3b692a2433e070707f584ba26c38485d7d13
+Volume 21:
+    StartingPath   hg18.nsq 8353
+    EndingPath     hg18.nsq 8770
+    Hash SHA1 a3eb644f61b35347d42ae680ef551de9b165373f
+Volume 22:
+    StartingPath   hg18.nsq 8771
+    EndingPath     hg18.nsq 9187
+    Hash SHA1 4583d5712e859797ced127db4fc2c2e143f23707
+Volume 23:
+    StartingPath   hg18.nsq 9188
+    EndingPath     hg18.nsq 9606
+    Hash SHA1 32ebc4a22db3946566166f08d9821d9d9c6eb276
+Volume 24:
+    StartingPath   hg18.nsq 9607
+    EndingPath     hg18.nsq 10026
+    Hash SHA1 ed2549e5d64798663ccd65efbceaa5dd98243776
+Volume 25:
+    StartingPath   hg18.nsq 10027
+    EndingPath     hg18.nsq 10443
+    Hash SHA1 37b08313e9bdfa42138ef4575e582b2d38450b5f
+Volume 26:
+    StartingPath   hg18.nsq 10444
+    EndingPath     hg18.nsq 10857
+    Hash SHA1 9b40faa890893084c4d35fdcee5964b979e2efbc
+Volume 27:
+    StartingPath   hg18.nsq 10858
+    EndingPath     hg18.nsq 11278
+    Hash SHA1 4258b8aa028f791d2a41c408e6d3923dcd858869
+Volume 28:
+    StartingPath   hg18.nsq 11279
+    EndingPath     hg18.nsq 11699
+    Hash SHA1 3fafc29dc35e2f85b271b1cd10af3437e650a556
+Volume 29:
+    StartingPath   hg18.nsq 11700
+    EndingPath     hg18.prsp.bed 1296
+    Hash SHA1 881ee5fe0a8f368a0661554803c7d152b1dca991
+Volume 30:
+    StartingPath   hg18.prsp.bed 1297
+    EndingPath     hg18.prsp.bed 3501
+    Hash SHA1 9017a03e4faf164db0bb85ae14a1de48bda6a47e
+Volume 31:
+    StartingPath   hg18.prsp.bed 3502
+    EndingPath     hg18.prsp.bed 5691
+    Hash SHA1 6164a6d3914c6391f22c1e9f4dc4edfd5c1e8f3f
+Volume 32:
+    StartingPath   hg18.prsp.bed 5692
+    EndingPath     hg18.prsp.bed 7879
+    Hash SHA1 13245334e6e5c174fc433043b2c646dc2e54bc2d
+Volume 33:
+    StartingPath   hg18.prsp.bed 7880
+    EndingPath     hg18.prsp.bed 10047
+    Hash SHA1 33ed15f60b11716a1d4d8bd9d27461af3cdcdd41
+Volume 34:
+    StartingPath   hg18.prsp.bed 10048
+    EndingPath     hg18.prsp.bed 12220
+    Hash SHA1 b794f4722b0291b0b33758b3075ba99d40136df4
+Volume 35:
+    StartingPath   hg18.prsp.bed 12221
+    EndingPath     hg18.prsp.bed 14446
+    Hash SHA1 7e0ad68bda6193072f40cd4e302ceaaf55b23c28
+Volume 36:
+    StartingPath   hg18.prsp.bed 14447
+    EndingPath     hg18.prsp.bed 16677
+    Hash SHA1 31c9e7ab9f0d654bf6a2c1a8543e169898631d52
+Volume 37:
+    StartingPath   hg18.prsp.bed 16678
+    EndingPath     hg18.prsp.bed 18887
+    Hash SHA1 4610a21788fdbf404585c7584c60aa0b54456b9a
+Volume 38:
+    StartingPath   hg18.prsp.bed 18888
+    EndingPath     hg18.prsp.bed 21088
+    Hash SHA1 707ada15b6348c441759ebad7191c768bfea2d14
+Volume 39:
+    StartingPath   hg18.prsp.bed 21089
+    EndingPath     hg18.prsp.bed 23268
+    Hash SHA1 37e7c787a81715623a64f6bf0029d77da915636d
+Volume 40:
+    StartingPath   hg18.prsp.bed 23269
+    EndingPath     hg18.prsp.bed  
+    Hash SHA1 314cb2af04e9c1f21375a0bd022317b925c38244

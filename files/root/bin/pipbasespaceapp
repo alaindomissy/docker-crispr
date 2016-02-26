@@ -1,0 +1,4 @@
+#!/bin/bash
+
+pip uninstall -y basespaceapp
+pip install basespaceapp
